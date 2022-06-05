@@ -1,37 +1,10 @@
 <template>
   <div class="q-pa-md row items-start q-gutter-md">
-    <q-card class="my-card">
-      <q-card-section>
-        {{ lorem }}
-      </q-card-section>
-    </q-card>
-
-    <q-card
-      class="my-card text-white"
-      style="background: radial-gradient(circle, #35a2ff 0%, #014a88 100%)"
-    >
-      <q-card-section>
-        <div class="text-h6">Our Changing Planet</div>
-        <div class="text-subtitle2">by John Doe</div>
-      </q-card-section>
-
-      <q-card-section class="q-pt-none">
-        {{ lorem }}
-      </q-card-section>
-    </q-card>
-
-    <q-card dark bordered class="bg-grey-9 my-card">
-      <q-card-section>
-        <div class="text-h6">Our Changing Planet</div>
-        <div class="text-subtitle2">by John Doe</div>
-      </q-card-section>
-
-      <q-separator dark inset />
-
-      <q-card-section>
-        {{ lorem }}
-      </q-card-section>
-    </q-card>
+    <div class="row">
+      <div>First column</div>
+      <div>Second column</div>
+      <div>Third column</div>
+    </div>
   </div>
 </template>
 
@@ -46,8 +19,4 @@ export default {
 };
 </script>
 
-<style lang="sass" scoped>
-.my-card
-  width: 100%
-  max-width: 250px
-</style>
+<style lang="sass" scoped></style>
